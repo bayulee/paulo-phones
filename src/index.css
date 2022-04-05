@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+}
+.header{
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+ul{
+  display: flex;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+li{
+  margin: 30px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.icon{
+  height:50px;
+  width: 50px;
+  padding: 20px 40px;
+}
+.header h2{
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.firstrow{
+  display: flex;
+  margin: 20px;
+  height: 90vh;
+}
+
+.secondrow{
+  display: flex;
+  gap: 50px;
+}
+
+.card{
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+background-color: white;
+width: 500px;
+text-align: center;
+align-content: center;
+}
+.card p{
+  margin:5px;
+  font-size: 25px;
+}
+.card h2{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card button{
+  font-size: 20px;
+  width: 150px;
+  margin-left: 120px;
+  background-color: darksalmon;
+  color: aqua;
+  
+}
+img{
+  height: 500px;
+  width: 400px;
+  margin: 10px;
+}
+.product{
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
